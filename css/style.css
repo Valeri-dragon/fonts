@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  src: local("Lato"), url(../fonts/Lato-Thin.ttf) format("ttf"),
+    url(../fonts/Lato-Hairline.eot) format("eot"),
+    url(../fonts/Lato-Hairline.svg) format("svg"),
+    url(../fonts/Lato-Hairline.woff) format("woff"),
+    url(../fonts/Lato-Hairline.woff2) format("woff2");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lato"), url(../fonts/Lato-Regular.ttf) format("ttf"),
+    url(../fonts/Lato-Regular.eot) format("eot"),
+    url(../fonts/Lato-Regular.svg) format("svg"),
+    url(../fonts/Lato-Regular.woff) format("woff"),
+    url(../fonts/Lato-Regular.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Lato"), url(../fonts/Lato-Light.ttf) format("ttf"),
+    url(../fonts/Lato-Light.eot) format("eot"),
+    url(../fonts/Lato-Light.svg) format("svg"),
+    url(../fonts/Lato-Light.woff) format("woff"),
+    url(../fonts/Lato-Light.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Lato"), url(../fonts/Lato-Bold.ttf) format("ttf"),
+    url(../fonts/Lato-Bold.eot) format("eot"),
+    url(../fonts/Lato-Bold.svg) format("svg"),
+    url(../fonts/Lato-Bold.woff) format("woff"),
+    url(../fonts/Lato-Bold.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Lato"), url(../fonts/Lato-Black.ttf) format("ttf"),
+    url(../fonts/Lato-Black.eot) format("eot"),
+    url(../fonts/Lato-Black.svg) format("svg"),
+    url(../fonts/Lato-Black.woff) format("woff"),
+    url(../fonts/Lato-Black.woff2) format("woff2");
+}
+.text-box{
+	padding-top: 2rem;
+}
+.result {
+	margin-bottom: 0;
+	margin-top: 3rem;
+}
+.fonts {
+	font-size: 2rem;
+	text-align: center;
+	padding: 2rem;
+}
+p.resault:nth-of-type(1){
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1rem;
+}
+ p.resault:nth-of-type(2){
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+ p.resault:nth-of-type(3){
+	font-family: "Lato";
+	font-weight: 900;
+	font-size: 2rem;
+}
+ p.resault:nth-of-type(4){
+	font-family: 'Lobster', cursive;
+	font-weight: 700;
+	font-size: 3rem;
+}
+small {
+	font-size: 1.3rem;
+}
